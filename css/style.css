@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Squada+One|Tajawal');
+
+body, html {
+    background: url(../img/tumbuhan.jpg) no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	  color: #fff;
+	  font-family: 'Tajawal', sans-serif;
+}
+h2{
+	color: #ffffff;
+}
+.navbar{
+	background: none;
+    border-radius: 0px;
+    border: none;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-brand{
+	font-family: 'Squada One', cursive;
+	color: #ffffff;
+	font-size: 30px;
+}
+.nav-item::after{content:'';display:block;width:0px;height:2px;background:#fec400;transition: 0.2s;}
+.nav-item:hover::after{width:100%;}
+.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link,.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{color:#fec400;}
+.nav-link{padding:15px 5px;transition:0.2s;}
+.dropdown-item.active, .dropdown-item:active{color:#212529;}
+.dropdown-item:focus, .dropdown-item:hover{background:#fec400;}
+.cover{
+	width: 100%;
+}
+.main{
+	padding: 0px;
+}
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+/* image thumbnail */
+.thumb {
+    display: block;
+	width: 100%;
+	margin: 0;
+}
+
+/* Style to article Author */
+.by-author {
+	font-style: italic;
+	line-height: 1.3;
+	color: #aab6aa;
+}
+
+/* Main Article [Module]
+-------------------------------------
+* Featured Article Thumbnail
+* have a image and a text title.
+*/
+.featured-article {
+	/*width: 482px;*/
+	/*height: 350px;*/
+	position: relative;
+	margin-bottom: 1em;
+}
+
+.featured-article .block-title {
+	/* Position & Box Model */
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+	/* background */
+	background: #1d1d1b;
+	/* Width/Height */
+	padding: .5em;
+	width: 100%;
+	/* Text color */
+	color: #fff;
+}
+
+.featured-article .block-title h2 {
+	margin: 0;
+	opacity: 0.9;
+    filter: alpha(opacity=90); 
+}
+
+/* Featured Articles List [BS3]
+--------------------------------------------
+* show the last 3 articles post
+*/
+
+.main-list {
+	padding-left: .0em;
+}
+
+.main-list .media {
+	/*padding-bottom: 1.1em;*/
+	background-color: #333;
+	opacity: 0.9;
+    filter: alpha(opacity=90); 
+	/*border-bottom: 1px solid #e8e8e8;*/
+}
+.judul{
+	font-size: 30;
+	font-family: 'Tajawal', sans-serif;
+}
+.list{
+	height: 600px;
+    overflow-y: scroll;
+}
+.tags{margin-bottom: 10px; margin-top: 10px;}
+.media-heading{
+	padding-top: 10px;
+	color: #fff;
+}
+
+.details{
+	padding: 10px;
+	background-color: #000000;
+	opacity: 0.9;
+    filter: alpha(opacity=90);
+	min-height: 500px;
+}

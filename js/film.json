@@ -1,0 +1,47 @@
+
+  [
+    {
+      "NewsItemId": "1",
+      "HeadLine": "Kursus Video Editing",
+      "DateLine": "Posted by administrator on Dec 9, 2016",
+      "WebURL": "http://erabelajar.com/other/#/blog/kursus-video-editing",
+      "Caption": "Belajar Kursus Video Editting",
+      "Image": {
+        "Photo": "img/video-editing.jpg",
+        "Thumb": "img/video-editing.jpg",
+        "PhotoCaption": ""
+      },
+      "Keywords": "",
+      "Story": "Ayo belajar Video Editing di ERA Belajar ,Pengajarnya adalah para Editor di TV ternama Indonesia lho.Ada beberapa pilihan software nya lho. Ada AVID, Final Cut Pro dan Adobe Premier Pro. Tinggal pilih sesuai keinginan kamu."
+    },
+    {
+      "NewsItemId": "2",
+      "HeadLine": "Kota dengan waktu kerja terlama",
+      "DateLine": "Posted by administrator on Dec 9, 2016",
+      "WebURL": "http://erabelajar.com/other/#/blog/kota-dengan-waktu-kerja-terlama",
+      "Caption": "Hong Kong merupakan kota dengan waktu kerja terlama di dunia.",
+      "Image": {
+        "Photo": "img/pekerjaan.jpg",
+        "Thumb": "img/pekerjaan.jpg",
+        "PhotoCaption": ""
+      },
+      "Keywords": "",
+      "Story": "Pekerja di Hongkong dapat bekerja sampai 10 jam dalam sehari, Rata-rata pekerja di Hongkong bekerja selama 2.606 jam per tahun. Apabila dibandingkan, pekerja di kota Paris hanya menghabiskan 1.604 jam dalam setahun untuk bekerja. Hal tersebut bahkan setengah dari rata-rata pekerja di hong kong."
+    },
+    {
+      "NewsItemId": "3",
+      "HeadLine": "Ini dia, Pohon yang bisa berjalan",
+      "DateLine": "Posted by administrator on Dec 10, 2016",
+      "WebURL": "http://erabelajar.com/other/#/blog/ini-dia,-pohon-yang-bisa-berjalan",
+      "Caption": "Alam seringkali menunjukkan kita kejadian-kejadian unik yang mencengangkan. Seperti pohon yang satu ini. ",
+      "Image": {
+        "Photo": "img/tumbuhan.jpeg",
+        "Thumb": "img/tumbuhan.jpeg",
+        "PhotoCaption": ""
+      },
+      "Keywords": "",
+      "Story": "Pohon dengan nama ilmiah Socratea Exorrhiza ini hidup di hutan Ekuador. Pohon ini  berjalan dengan menggunakan akarnya, karena akarnya berbentuk menjari dan mirip seperti kaki-kaki. Pohon ini dapat bergerak sejauh 2-3 cm per hari, sampai 20 meter per tahun."
+    }
+  
+  ]
+  

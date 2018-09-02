@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link href="css/style.css" rel="stylesheet">
+	<style type="text/css">
+		body{
+			background-color: #dcdcdc;
+		}
+		h5{
+			color: red;
+		}
+		.jawaban{
+			background-color: #008c2b;
+			color: #fff;
+			font-size: 18px;
+			padding: 20px;
+		}
+	</style>
+</head>
+<body class="container">
+	<nav class="navbar navbar-inverse nopadding">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span> 
+	      </button>
+	      <a class="navbar-brand" href="#" style="color: #fff">FRONTEND TES BY TUNAIKU</a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="myNavbar">
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="Task1.html"><span class="glyphicon glyphicon-user"></span> Task 1</a></li>
+	        <li><a href="index.html"><span class="glyphicon glyphicon-log-in"></span> Task 2</a></li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+	<!-- <script type="text/javascript">
+		for(var i=0; i < 4; i++) {
+		setTimeout(() => console.log(i), 0);
+		}
+	</script> -->
+	<div class="col-md-12">
+		<h1>TASK 1</h1>
+			<h3>1. Find solution (fix the code) and answers question below:</h3>
+			<blockquote>
+				Questions for number 1: <br>
+				<b>Why output in the console shown as 4 (numeric) four times?  </b><br>
+				<h5 class="jawaban">karna yg dicetak oleh fungsi settimeout tidak ada, console hanya mencetak i saja</h5>
+				<b>How to shown the right output of 0,1,2,3 with using setTimeout() as requirement (without removing setTimeout)?</b> <br>
+				<h5 class="jawaban">
+					berikut code yg benar <br>
+					<code>
+						for (i=0;i<=3;i=i+1)
+						<br>
+						setTimeout(console.log(i), 0);
+					</code>
+				</h5>
+			</blockquote>
+
+			<h3>2. Find solution (fix the code) from code below, keyword this​ is required in this case:</h3>
+			<blockquote>
+				<code>
+					function Person(name, age) { <br>
+					this.name = name; <br>
+					this.age = age; <br>
+					} <br>
+					function Running(place) { <br>
+					return `${this.name} age of ${this.age} likes to run in ${place}`; <br>
+					} <br>
+					var x = Running('Senayan'); <br>
+					console.log(x) // name and age undefined <br>
+
+				</code>
+
+				<h5 class="jawaban">
+					<code>
+						belum selesai
+					</code>
+				</h5>
+			</blockquote>
+
+			<h3>3. Find solution (fix the code) from code below:</h3>
+			<blockquote>
+				<code>
+					var Person = function() {
+					this.fullName = fullName;
+					this.walking = () => {
+					return `${this.fullName} is walking`;
+					}
+					}
+					Person.running = function() {
+					return `${this.walking()} and then running`;
+					}
+					var x = new Person('John Doe');
+					x.running() // error
+				</code>
+				<h5 class="jawaban">
+					belum selesai
+				</h5>
+			</blockquote>
+
+
+			<h3>4. Explain variable A is working but variable B shows NaN, and what is this terms called?</h3>
+			<blockquote>
+				<code>
+					var a = [1,2,3,4]+[5,6,7,8];
+					var b = [1,2,3,4]-[5,6,7,8];
+
+				</code>
+				<h5 class="jawaban">Karna operator yang dipakai itu masih dibaca sebagai string , mesin tidak mengenali operator string - string</h5>
+			</blockquote>
+	</div>
+
+
+	
+	<!-- NOMOR 1 -->
+	<!-- <script>
+		for (i=0;i<=3;i=i+1)
+		setTimeout(console.log(i), 0);
+	</script> -->
+
+	<!-- SOAL NOMOR 2 -->
+	<script type="text/javascript">
+		function Person(name, age) { 
+		this.name = name; 
+		this.age = age; 
+		} 
+		function Running(place) { 
+		return `${this.name} age of ${this.age} likes to run in ${place}`; 
+		} 
+		var x = Running('Senayan'); 
+		console.log(x) // name and age undefined
+	</script>
+
+	<!-- SOLA NOMOR 3 -->
+	<script type="text/javascript">
+		// var Person = function() {
+		// this.fullName = fullName;
+		// this.walking = () => {
+		// return `${this.fullName} is walking`;
+		// }
+		// }
+		// Person.running = function() {
+		// return `${this.walking()} and then running`;
+		// }
+		// var x = new Person('John Doe');
+		// x.running() 
+		// error
+	</script>
+
+
+	<!-- SOAL NO 4 -->
+	<script type="text/javascript">
+		// var a = [1,2,3,4]+[5,6,7,8];
+		// var b = [1,2,3,4]-[5,6,7,8];
+
+		// console.log (a);
+		// console.log (b);
+	</script>
+
+	
+</body>
+</html>
