@@ -20,8 +20,8 @@
 			    </div>
 			    <div class="collapse navbar-collapse" id="myNavbar">
 			      <ul class="nav navbar-nav navbar-right">
-			        <li><a href="Task1.html"><span class="glyphicon glyphicon-user"></span> Task 1</a></li>
-			        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Task 2</a></li>
+			        <li><a href="Task1.html"><span class="glyphicon glyphicon-list"></span> Task 1</a></li>
+			        <li><a href="#"><span class="glyphicon glyphicon-list"></span> Task 2</a></li>
 			      </ul>
 			    </div>
 			  </div>
@@ -30,6 +30,7 @@
 			<div class="col-md-12">
 				<h2>STAR WARS</h2>
 				<div class="col-xs-4">
+					<h4>{{synopsis}}</h4>
 			      <div class="person" ng-repeat="film in films | orderBy:'-episode_id'" ng-click="showDetails(film)">
 			        <div><h4><a href="#"> Episode {{film.episode_id}} : {{film.title}} </a></h4></div>     
 			      </div>
@@ -40,9 +41,10 @@
 			    	<p>{{director}} {{selectedFilm.director}} {{producer}} {{selectedFilm.producer}}</p>
 			    	<!-- <img width="100%" ng-src="img/{{selectedFilm.episode_id}}.jpg"> -->
 			    	<img width="100%" ng-src="{{cover}}">
-			    	<p><b>{{synopsis}}</b></p>
+			    	<p><b>{{synopsisfilm}}</b></p>
 			    	<!-- <p>{{selectedFilm.release_date}}</p> -->
 			    	<p>{{selectedFilm.opening_crawl}}</p>
+			    	<p>{{selectedFilm.characters.names}}</p>
 			    </div>
 			</div>
 
